@@ -4,7 +4,7 @@ import Slider from '@react-native-community/slider';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import WaterBottle from '../components/WaterBottle';
 
-const DAILY_GOAL_ML: number = 2500; // Obiettivo giornaliero in mL
+const DAILY_GOAL_ML: number = 1500; // Obiettivo giornaliero in mL
 const STORAGE_KEY = '@water_amount_today';
 
 export default function HomeScreen(): React.JSX.Element {

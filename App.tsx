@@ -1,13 +1,13 @@
 import React from 'react';
-import { SafeAreaView, StatusBar, StyleSheet } from 'react-native';
+import { View, StatusBar, StyleSheet } from 'react-native';
 import HomeScreen from './components/HomeScreen';
 
 export default function App(): React.JSX.Element {
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       <StatusBar barStyle="dark-content" />
       <HomeScreen />
-    </SafeAreaView>
+    </View>
   );
 }
 
